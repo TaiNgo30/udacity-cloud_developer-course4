@@ -11,7 +11,7 @@ jobs:
       - run:
           name: Build Docker images using Docker Compose
           command: |
-            docker-compose -f docker-compose-build.yml build
+            docker-compose -f docker-compose-build.yaml build
       - run:
           name: Tag Docker images
           command: |
