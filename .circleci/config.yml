@@ -3,10 +3,10 @@ version: 2.1
 jobs:
   build-and-push:
     docker:
-      - image: docker:lastest
+      - image: docker:20.10
     steps:
       - setup_remote_docker:
-          version: lastest
+          version: 20.10.7
       - checkout
       - run:
           name: Build Docker images using Docker Compose
