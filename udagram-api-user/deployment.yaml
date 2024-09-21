@@ -31,7 +31,7 @@ spec:
             requests:
               cpu: "100m"
             limits:
-              cpu: "500m"
+              cpu: "200m"
       volumes:
         - name: aws-credentials
           secret:
